@@ -1,0 +1,292 @@
+﻿<Window x:Class="WpfApp6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:wpfx="http://schemas.microsoft.com/winfx/2006/xaml/presentation/toolkit/extended"
+        xmlns:local="clr-namespace:WpfApp6"
+        mc:Ignorable="d"
+        Title="GeoMap" Height="2160" Width="3840" WindowStartupLocation="CenterScreen" WindowState="Maximized" Loaded="Window_Loaded" ResizeMode="NoResize">
+    <Window.Resources>
+        <Storyboard x:Key="sbShowLeftMenu" >
+            <ThicknessAnimation Storyboard.TargetProperty="Margin" From="-660,-300,0,0" To="0,-300,0,0" DecelerationRatio=".9" Duration="0:0:1" />
+        </Storyboard>
+        <Storyboard x:Key="sbHideLeftMenu">
+            <ThicknessAnimation Storyboard.TargetProperty="Margin" From="0,-300,0,0" To="-660,-300,0,0" AccelerationRatio=".9" Duration="0:0:1" />
+        </Storyboard>
+    </Window.Resources>
+    <Grid>
+        <wpfx:MagnifierManager.Magnifier >
+            <wpfx:Magnifier Visibility="Hidden" Name="MagnifiyingGlass" Radius="400" ZoomFactor=".5"
+                            BorderBrush="Orange" BorderThickness="2"/>
+        </wpfx:MagnifierManager.Magnifier>
+        <StackPanel Panel.ZIndex="2" Name="pnlLeftMenu" Orientation="Horizontal" Height="1600" HorizontalAlignment="Left" Margin="-660,-300,0,0">
+            <Border BorderBrush="#AF1719" BorderThickness="1" Width="660" Height="1600" CornerRadius="5" >
+                <Grid Margin="0,0,0,0">
+                    <Grid.Background>
+                        <SolidColorBrush Color="DimGray" Opacity="0.8"/>
+                    </Grid.Background>
+                    <!--<Image Source="colorTza/tza01.png" Height="37" Width="37" Margin="24,94,598,1189"/>-->
+                    <Grid Height="37" Width="37" Margin="24,94,598,1189">
+                        <Ellipse Stroke="Black" Name="tza1" Margin="0,-137,0,137"/>
+                        <TextBlock HorizontalAlignment="Center" Text="01" TextAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="23" Margin="7,-134,5,140"/>
+                    </Grid>
+                    <!--<Image Source="colorTza/tza02.png" Height="37" Width="37" Margin="24,144,598,1139"/>-->
+                    <Grid Height="37" Width="37" Margin="24,144,598,1139">
+                        <Ellipse Stroke="Black" Name="tza2" Margin="0,-137,0,137"/>
+                        <TextBlock HorizontalAlignment="Center" Text="02" TextAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="23" Margin="7,-134,5,140"/>
+                    </Grid>
+                    <!--<Image Source="colorTza/tza03.png" Height="37" Width="37" Margin="24,194,598,1089"></Image>-->
+                    <Grid Height="37" Width="37" Margin="24,194,598,1089">
+                        <Ellipse Stroke="Black" Name="tza3" Margin="0,-137,0,137"/>
+                        <TextBlock HorizontalAlignment="Center" Text="03" TextAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="23" Margin="7,-134,5,140"/>
+                    </Grid>
+                    <!--<Image Source="colorTza/tza04.png" Height="37" Width="37" Margin="24,244,598,1039"></Image>-->
+                    <Grid Height="37" Width="37" Margin="24,244,598,1039">
+                        <Ellipse Stroke="Black" Name="tza4" Margin="0,-137,0,137"/>
+                        <TextBlock HorizontalAlignment="Center" Text="04" TextAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="23" Margin="7,-134,5,140"/>
+                    </Grid>
+                    <!--<Image Source="colorTza/tza05.png" Height="37" Width="37" Margin="24,294,598,989"></Image>-->
+                    <Grid Height="37" Width="37" Margin="24,294,598,989">
+                        <Ellipse Stroke="Black" Name="tza5" Margin="0,-137,0,137"/>
+                        <TextBlock HorizontalAlignment="Center" Text="05" TextAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="23" Margin="7,-134,5,140"/>
+                    </Grid>
+                    <!--<Image Source="colorTza/tza06.png" Height="37" Width="37" Margin="24,344,598,939"></Image>-->
+                    <Grid Height="37" Width="37" Margin="24,344,598,939">
+                        <Ellipse Stroke="Black" Name="tza6" Margin="0,-137,0,137"/>
+                        <TextBlock HorizontalAlignment="Center" Text="06" TextAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="23" Margin="7,-134,5,140"/>
+                    </Grid>
+                    <!--<Image Source="colorTza/tza07.png" Height="37" Width="37" Margin="24,394,598,889"></Image>-->
+                    <Grid Height="37" Width="37" Margin="24,394,598,889">
+                        <Ellipse Stroke="Black" Name="tza7" Margin="0,-137,0,137"/>
+                        <TextBlock HorizontalAlignment="Center" Text="07" TextAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="23" Margin="7,-134,5,140"/>
+                    </Grid>
+                    <!--<Image Source="colorTza/tza08.png" Height="37" Width="37" Margin="24,444,598,839"></Image>-->
+                    <Grid Height="37" Width="37" Margin="24,444,598,839">
+                        <Ellipse Stroke="Black" Name="tza8" Margin="0,-137,0,137"/>
+                        <TextBlock HorizontalAlignment="Center" Text="08" TextAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="23" Margin="7,-134,5,140"/>
+                    </Grid>
+                    <!--<Image Source="colorTza/tza09.png" Height="37" Width="37" Margin="24,494,598,789"></Image>-->
+                    <Grid Height="37" Width="37" Margin="24,494,598,789">
+                        <Ellipse Stroke="Black" Name="tza9" Margin="0,-137,0,137"/>
+                        <TextBlock HorizontalAlignment="Center" Text="09" TextAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="23" Margin="7,-134,5,140"/>
+                    </Grid>
+                    <!--<Image Source="colorTza/tza10.png" Height="37" Width="37" Margin="24,544,598,739"></Image>-->
+                    <Grid Height="37" Width="37" Margin="24,544,598,739">
+                        <Ellipse Stroke="Black" Name="tza10" Margin="0,-137,0,137"/>
+                        <TextBlock HorizontalAlignment="Center" Text="10" TextAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="23" Margin="6,-134,6,140"/>
+                    </Grid>
+                    <!--<Image Source="colorTza/tza11.png" Height="37" Width="37" Margin="24,594,598,689"></Image>-->
+                    <Grid Height="37" Width="37" Margin="24,594,598,689">
+                        <Ellipse Stroke="Black" Name="tza11" Margin="0,-137,0,137"/>
+                        <TextBlock HorizontalAlignment="Center" Text="11" TextAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="23" Margin="6,-134,6,140"/>
+                    </Grid>
+                    <!--<Image Source="colorTza/tza12.png" Height="37" Width="37" Margin="24,644,598,639"></Image>-->
+                    <Grid Height="37" Width="37" Margin="24,644,598,639">
+                        <Ellipse Stroke="Black" Name="tza12" Margin="0,-137,0,137"/>
+                        <TextBlock HorizontalAlignment="Center" Text="12" TextAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="23" Margin="6,-134,6,140"/>
+                    </Grid>
+                    <!--<Image Source="colorTza/tza14.png" Height="37" Width="37" Margin="24,694,598,589"></Image>-->
+                    <Grid Height="37" Width="37" Margin="24,694,598,589">
+                        <Ellipse Stroke="Black" Name="tza14" Margin="0,-137,0,137"/>
+                        <TextBlock HorizontalAlignment="Center" Text="14" TextAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="23" Margin="6,-134,6,140"/>
+                    </Grid>
+                    <!--<Image Source="colorTza/tza15.png" Height="37" Width="37" Margin="24,744,598,539"></Image>-->
+                    <Grid Height="37" Width="37" Margin="24,744,598,539">
+                        <Ellipse Stroke="Black" Name="tza15" Margin="0,-137,0,137"/>
+                        <TextBlock HorizontalAlignment="Center" Text="15" TextAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="23" Margin="6,-134,6,140"/>
+                    </Grid>
+                    <!--<Image Source="colorTza/tza16.png" Height="37" Width="37" Margin="24,794,598,489"></Image>-->
+                    <Grid Height="37" Width="37" Margin="24,794,598,489">
+                        <Ellipse Stroke="Black" Name="tza16" Margin="0,-137,0,137"/>
+                        <TextBlock HorizontalAlignment="Center" Text="16" TextAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="23" Margin="6,-134,6,140"/>
+                    </Grid>
+                    <!--<Image Source="colorTza/pza50.png" Height="37" Width="37" Margin="24,844,598,439"></Image>-->
+                    <Grid Height="37" Width="37" Margin="24,844,598,439">
+                        <Ellipse Stroke="Black" Name="pza50" Margin="0,-137,0,137"/>
+                        <TextBlock HorizontalAlignment="Center" Text="50" TextAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="23" Margin="6,-134,6,140"/>
+                    </Grid>
+                    <!--<Image Source="colorTza/pza51.png" Height="37" Width="37" Margin="24,894,598,389"></Image>-->
+                    <Grid Height="37" Width="37" Margin="24,894,598,389">
+                        <Ellipse Stroke="Black" Name="pza51" Margin="0,-137,0,137"/>
+                        <TextBlock HorizontalAlignment="Center" Text="51" TextAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="23" Margin="6,-134,6,140"/>
+                    </Grid>
+                    <!--<Image Source="colorTza/pza52.png" Height="37" Width="37" Margin="24,944,598,339"></Image>-->
+                    <Grid Height="37" Width="37" Margin="24,944,598,339">
+                        <Ellipse Stroke="Black" Name="pza52" Margin="0,-137,0,137"/>
+                        <TextBlock HorizontalAlignment="Center" Text="52" TextAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="23" Margin="6,-134,6,140"/>
+                    </Grid>
+                    <!--<Image Source="colorTza/pza53.png" Height="37" Width="37" Margin="24,994,598,289"></Image>-->
+                    <Grid Height="37" Width="37" Margin="24,994,598,289">
+                        <Ellipse Stroke="Black" Name="pza53" Margin="0,-137,0,137"/>
+                        <TextBlock HorizontalAlignment="Center" Text="53" TextAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="23" Margin="6,-134,6,140"/>
+                    </Grid>
+                    <!--<Image Source="colorTza/pza54.png" Height="37" Width="37" Margin="24,1044,598,239"></Image>-->
+                    <Grid Height="37" Width="37" Margin="24,1044,598,239">
+                        <Ellipse Stroke="Black" Name="pza54" Margin="0,-137,0,137"/>
+                        <TextBlock HorizontalAlignment="Center" Text="54" TextAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="23" Margin="6,-134,6,140"/>
+                    </Grid>
+                    <!--<Image Source="colorTza/pza55.png" Height="37" Width="37" Margin="24,1094,598,189"></Image>-->
+                    <Grid Height="37" Width="37" Margin="24,1094,598,189">
+                        <Ellipse Stroke="Black" Name="pza55" Margin="0,-137,0,137"/>
+                        <TextBlock HorizontalAlignment="Center" Text="55" TextAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="23" Margin="6,-134,6,140"/>
+                    </Grid>
+                    <!--<Image Source="colorTza/pza56.png" Height="37" Width="37" Margin="24,1144,598,139"></Image>-->
+                    <Grid Height="37" Width="37" Margin="24,1144,598,139">
+                        <Ellipse Stroke="Black" Name="pza56" Margin="0,-137,0,137"/>
+                        <TextBlock HorizontalAlignment="Center" Text="56" TextAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="23" Margin="6,-134,6,140"/>
+                    </Grid>
+                    <!--<Image Source="colorTza/pza57.png" Height="37" Width="37" Margin="24,1194,598,89"></Image>-->
+                    <Grid Height="37" Width="37" Margin="24,1194,598,89">
+                        <Ellipse Stroke="Black" Name="pza57" Margin="0,-137,0,137"/>
+                        <TextBlock HorizontalAlignment="Center" Text="57" TextAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="23" Margin="6,-134,6,140"/>
+                    </Grid>
+                    <!--<Image Source="colorTza/pza58.png" Height="37" Width="37" Margin="24,1244,598,39"></Image>-->
+                    <Grid Height="37" Width="37" Margin="24,1244,598,39">
+                        <Ellipse Stroke="Black" Name="pza58" Margin="0,-137,0,137"/>
+                        <TextBlock HorizontalAlignment="Center" Text="58" TextAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="23" Margin="6,-134,6,140"/>
+                    </Grid>
+                    <Ellipse Stroke="Black" Fill="Green" Margin="138,1338,484,223"/>
+
+                    <Label Content="#" Foreground="White" FontWeight="Bold" FontSize="30" Margin="30,17,592,1512" FontStyle="Italic"/>
+                    <Label Content="ТЗА/ПЗА" Foreground="White" FontWeight="Bold" FontSize="30" Margin="93,18,425,1512" FontStyle="Italic"/>
+                    <Label Content="Объем (л)" Foreground="White" FontWeight="Bold" FontSize="28" Margin="252,18,256,1512" FontStyle="Italic"/>
+                    <Label Content="Скорость (км/ч)" Foreground="White" FontWeight="Bold" FontSize="28" Margin="409,18,10,1512" FontStyle="Italic"/>
+                    <Label Content="ТЗА-01" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="110,94,454,1464"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="252,94,256,1464" Name="tza01Volume"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="422,94,20,1464" Name="tza01Speed"/>
+                    <Label Content="ТЗА-02" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="110,144,454,1414"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="252,144,256,1414" Name="tza02Volume"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="422,144,20,1414" Name="tza02Speed"/>
+                    <Label Content="ТЗА-03" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="110,194,454,1364"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="252,194,256,1364" Name="tza03Volume"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="422,194,20,1364" Name="tza03Speed"/>
+                    <Label Content="ТЗА-04" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="110,244,454,1314"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="252,244,256,1314" Name="tza04Volume"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="422,244,20,1314" Name="tza04Speed"/>
+                    <Label Content="ТЗА-05" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="110,294,454,1264"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="252,294,256,1264" Name="tza05Volume"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="422,294,20,1264" Name="tza05Speed"/>
+                    <Label Content="ТЗА-06" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="110,344,454,1214"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="252,344,256,1214" Name="tza06Volume"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="422,344,20,1214" Name="tza06Speed"/>
+                    <Label Content="ТЗА-07" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="110,394,455,1164"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="252,394,256,1164" Name="tza07Volume"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="422,394,20,1164" Name="tza07Speed"/>
+                    <Label Content="ТЗА-08" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="110,444,455,1114"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="252,444,256,1114" Name="tza08Volume"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="422,444,20,1114" Name="tza08Speed"/>
+                    <Label Content="ТЗА-09" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="111,494,454,1064"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="252,494,256,1064" Name="tza09Volume"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="422,494,20,1064" Name="tza09Speed"/>
+                    <Label Content="ТЗА-10" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="111,544,455,1014"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="252,544,256,1014" Name="tza10Volume"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="422,544,20,1014" Name="tza10Speed"/>
+                    <Label Content="ТЗА-11" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="111,594,454,964"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="252,594,256,964" Name="tza11Volume"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="422,594,20,964" Name="tza11Speed"/>
+                    <Label Content="ТЗА-12" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="110,644,454,914"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="252,644,256,914" Name="tza12Volume"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="422,644,20,914" Name="tza12Speed"/>
+                    <Label Content="ТЗА-14" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="110,694,455,864"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="252,694,256,864" Name="tza14Volume"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="422,694,20,864" Name="tza14Speed"/>
+                    <Label Content="ТЗА-15" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="110,744,455,814"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="252,744,256,814" Name="tza15Volume"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="422,744,20,814" Name="tza15Speed"/>
+                    <Label Content="ТЗА-16" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="110,794,455,764"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="252,794,256,764" Name="tza16Volume"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="422,794,20,764" Name="tza16Speed"/>
+                    <Label Content="ПЗА-50" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="110,844,450,714"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="252,844,256,714" Name="pza50Volume"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="422,844,20,714" Name="pza50Speed"/>
+                    <Label Content="ПЗА-51" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="110,894,451,664"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="252,894,256,664" Name="pza51Volume"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="422,894,20,664" Name="pza51Speed"/>
+                    <Label Content="ПЗА-52" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="110,944,450,614"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="252,944,256,614" Name="pza52Volume"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="422,944,20,614" Name="pza52Speed"/>
+                    <Label Content="ПЗА-53" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="110,994,450,564"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="252,994,256,564" Name="pza53Volume"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="422,994,20,564" Name="pza53Speed"/>
+                    <Label Content="ПЗА-54" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="110,1044,450,514"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="252,1044,256,514" Name="pza54Volume"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="422,1044,20,514" Name="pza54Speed"/>
+                    <Label Content="ПЗА-55" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="110,1094,450,464"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="252,1094,256,464" Name="pza55Volume"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="422,1094,20,464" Name="pza55Speed"/>
+                    <Label Content="ПЗА-56" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="110,1144,451,414"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="252,1144,256,414" Name="pza56Volume"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="422,1144,20,414" Name="pza56Speed"/>
+                    <Label Content="ПЗА-57" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="110,1194,451,364"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="252,1194,256,364" Name="pza57Volume"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="422,1194,20,364" Name="pza57Speed"/>
+                    <Label Content="ПЗА-58" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="111,1244,450,314"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="252,1244,256,314" Name="pza58Volume"/>
+                    <Label Content="" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="422,1244,10,314" Name="pza58Speed"/>
+                    <Label Content="- Свободен" HorizontalAlignment="Left" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="189,1335,0,0" VerticalAlignment="Top" Width="183"/>
+                    <Ellipse Stroke="Black" Fill="Orange" Margin="138,1388,484,173"/>
+                    <Label Content="- Занят, принял заявку" HorizontalAlignment="Left" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="189,1385,0,0" VerticalAlignment="Top" Width="435"/>
+                    <Ellipse Stroke="Black" Fill="Red" Margin="138,1437,484,125"/>
+                    <Label Content="- Идет заправка" HorizontalAlignment="Left" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="188,1433,0,0" VerticalAlignment="Top" Width="435"/>
+                    <Ellipse Stroke="Black" Fill="Black" Margin="138,1484,484,78"/>
+                    <Label Content="- В ремонте" HorizontalAlignment="Left" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="188,1480,0,0" VerticalAlignment="Top" Width="435"/>
+                    <Ellipse Stroke="Black" Fill="DimGray" Margin="138,1530,484,32"/>
+                    <Label Content="- В резерве" HorizontalAlignment="Left" Foreground="White" FontWeight="Bold" FontSize="24" Height="40" Margin="188,1526,0,0" VerticalAlignment="Top" Width="435"/>
+                </Grid>
+            </Border>
+            <Grid>
+                <Button Name="btnLeftMenuHide" Width="140" Height="48" FontSize="28" Click="btnLeftMenuHide_Click" Content="Скрыть" Visibility="Hidden" Background="LightSeaGreen" Foreground="White" RenderTransformOrigin="0.5,0.5" Margin="-46,377,46,375">
+                    <Button.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Button.RenderTransform>
+                </Button>
+                <Button Name="btnLeftMenuShow" Width="140" Height="48" FontSize="28" Click="btnLeftMenuShow_Click" Content="Показать" Background="LightSeaGreen" Foreground="White" RenderTransformOrigin="0.5,0.5" Margin="-46,377,46,375">
+                    <Button.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Button.RenderTransform>
+                </Button>
+            </Grid>
+        </StackPanel>
+        <StackPanel>
+            <Menu Height="80" Name="menu">
+                <MenuItem IsCheckable ="True" x:Name="EnableMagnifier" Checked="EnableMagnifier_Checked" Unchecked="EnableMagnifier_Unchecked"
+                    Header="Включить увеличение" KeyDown="EnableMagnifier_KeyDown" Click="EnableMagnifier_Click" FontSize="34" Foreground="Black" Visibility="Hidden" />
+            </Menu>
+            <wpfx:IntegerUpDown x:Name="RadiusDropDown" 
+                             Value="520" Maximum="800" Minimum="10" ValueChanged="RadiusDropDown_ValueChanged" HorizontalAlignment="Right" Width="76"  Margin="0,0,1236.6,669.4" Height="31" VerticalAlignment="Bottom" Visibility="Hidden" >
+                <wpfx:IntegerUpDown.Effect>
+                    <DropShadowEffect ShadowDepth="2"/>
+                </wpfx:IntegerUpDown.Effect>
+            </wpfx:IntegerUpDown>
+            <wpfx:DecimalUpDown x:Name="ZoomFactorDropDown" FormatString="F1" Value=".5"
+                    Increment="0.1" Maximum="1" Minimum="0.1" ValueChanged="ZoomFactorDropDown_ValueChanged" Margin="0,0,1236.6,713.4" HorizontalAlignment="Right" Width="76" Height="32" VerticalAlignment="Bottom" Visibility="Hidden">
+                <wpfx:DecimalUpDown.Effect>
+                    <DropShadowEffect ShadowDepth="2"/>
+                </wpfx:DecimalUpDown.Effect>
+            </wpfx:DecimalUpDown>
+
+        </StackPanel>
+
+        <Grid Margin="0,45,0,1" Name="xtt">
+
+            <Canvas Name="can" Background="AliceBlue" Opacity="100" Margin="0,0,-0.4,0.2" MouseWheel="Can_MouseWheel" >
+                <!--<Image Name="picture" Width="{Binding Path=ActualWidth, ElementName=can}" Height="{Binding Path=ActualHeight, ElementName=can}" Source="sherMap3.png"/>-->
+
+                <Image Name="picture" Width="3830" Height="2100" Source="sherMap3type.png" Stretch="Fill" MouseRightButtonDown="Picture_MouseRightButtonDown" MouseWheel="Picture_MouseWheel"/>
+            </Canvas>
+
+        </Grid>
+
+    </Grid>
+</Window>
