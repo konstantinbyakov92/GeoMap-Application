@@ -96,7 +96,7 @@ namespace WpfApp6
 
                     
                     SolidColorBrush color = new SolidColorBrush();
-                    if (id == "358636085477114")
+                    if (id == "358636085477114" || id == "LKOH.SVO.01")
                     {
                         id = "ТЗА-01";
                         tza01Speed.Content = Convert.ToString(speedTZA);
@@ -137,7 +137,7 @@ namespace WpfApp6
                         tza1.Fill = color;
 
                     }
-                    else if (id == "358636085477213")
+                    else if (id == "358636085477213" || id == "LKOH.SVO.02")
                     {
                         id = "ТЗА-02";
                         tza02Speed.Content = Convert.ToString(speedTZA);
@@ -177,7 +177,7 @@ namespace WpfApp6
                         }
                         tza2.Fill = color;
                     }
-                    else if(id == "358636085446804")
+                    else if(id == "358636085446804" || id == "LKOH.SVO.03")
                     {
                         id = "ТЗА-03";
                         tza03Speed.Content = Convert.ToString(speedTZA);
@@ -217,7 +217,7 @@ namespace WpfApp6
                         }
                         tza3.Fill = color;
                     }
-                    else if(id == "358636085483724")
+                    else if(id == "358636085483724" || id == "LKOH.SVO.04")
                     {
                         id = "ТЗА-04";
                         tza04Speed.Content = Convert.ToString(speedTZA);
@@ -257,7 +257,7 @@ namespace WpfApp6
                         }
                         tza4.Fill = color;
                     }
-                    else if(id == "358636085477205")
+                    else if(id == "358636085477205" || id == "LKOH.SVO.05")
                     {
                         id = "ТЗА-05";
                         tza05Speed.Content = Convert.ToString(speedTZA);
@@ -297,7 +297,7 @@ namespace WpfApp6
                         }
                         tza5.Fill = color;
                     }
-                    else if (id == "358636085446762")
+                    else if (id == "358636085446762" || id == "LKOH.SVO.06")
                     {
                         id = "ТЗА-06";
                         tza06Speed.Content = Convert.ToString(speedTZA);
@@ -337,7 +337,7 @@ namespace WpfApp6
                         }
                         tza6.Fill = color;
                     }
-                    else if (id == "358636085401387")
+                    else if (id == "358636085401387" || id == "LKOH.SVO.07") //358636085401387
                     {
                         id = "ТЗА-07";
                         tza07Speed.Content = Convert.ToString(speedTZA);
@@ -377,7 +377,7 @@ namespace WpfApp6
                         }
                         tza7.Fill = color;
                     }
-                    else if (id == "358636085405883")
+                    else if (id == "358636085405883" || id == "LKOH.SVO.08")
                     {
                         id = "ТЗА-08";
                         tza08Speed.Content = Convert.ToString(speedTZA);
@@ -417,7 +417,7 @@ namespace WpfApp6
                         }
                         tza8.Fill = color;
                     }
-                    else if (id == "358636085477239")
+                    else if (id == "358636085477239" || id == "LKOH.SVO.09")
                     {
                         id = "ТЗА-09";
                         tza09Speed.Content = Convert.ToString(speedTZA);
@@ -457,7 +457,7 @@ namespace WpfApp6
                         }
                         tza9.Fill = color;
                     }
-                    else if (id == "358636085477155")
+                    else if (id == "358636085477155" || id == "LKOH.SVO.10")
                     {
                         id = "ТЗА-10";
                         tza10Speed.Content = Convert.ToString(speedTZA);
@@ -497,7 +497,7 @@ namespace WpfApp6
                         }
                         tza10.Fill = color;
                     }
-                    else if (id == "358636085483682")
+                    else if (id == "358636085483682" || id == "LKOH.SVO.11")
                     {
                         id = "ТЗА-11";
                         tza11Speed.Content = Convert.ToString(speedTZA);
@@ -537,7 +537,7 @@ namespace WpfApp6
                         }
                         tza11.Fill = color;
                     }
-                    else if (id == "358636085505401")
+                    else if (id == "358636085505401" || id == "LKOH.SVO.12")
                     {
                         id = "ТЗА-12";
                         tza12Speed.Content = Convert.ToString(speedTZA);
@@ -577,7 +577,7 @@ namespace WpfApp6
                         }
                         tza12.Fill = color;
                     }
-                    else if (id == "358636085446747")
+                    else if (id == "358636085446747" || id == "LKOH.SVO.14")
                     {
                         id = "ТЗА-14";
                         tza14Speed.Content = Convert.ToString(speedTZA);
@@ -617,7 +617,7 @@ namespace WpfApp6
                         }
                         tza14.Fill = color;
                     }
-                    else if (id == "358636085483716")
+                    else if (id == "358636085483716" || id == "LKOH.SVO.15")
                     {
                         id = "ТЗА-15";
                         tza15Speed.Content = Convert.ToString(speedTZA);
@@ -657,7 +657,7 @@ namespace WpfApp6
                         }
                         tza15.Fill = color;
                     }
-                    else if (id == "358636085505153")
+                    else if (id == "358636085505153" || id == "LKOH.SVO.16")
                     {
                         id = "ТЗА-16";
                         tza16Speed.Content = Convert.ToString(speedTZA);
@@ -697,7 +697,7 @@ namespace WpfApp6
                         }
                         tza16.Fill = color;
                     }
-                    else if (id == "358636085483708")
+                    else if (id == "358636085483708" || id == "LKOH.SVO.50")
                     {
                         id = "ПЗА-50";
                         pza50Speed.Content = Convert.ToString(speedTZA);
@@ -730,7 +730,7 @@ namespace WpfApp6
                         }
                         pza50.Fill = color;
                     }
-                    else if (id == "358636085477163")
+                    else if (id == "358636085477163" || id == "LKOH.SVO.51") //358636085477163
                     {
                         id = "ПЗА-51";
                         pza51Speed.Content = Convert.ToString(speedTZA);
@@ -763,7 +763,7 @@ namespace WpfApp6
                         }
                         pza51.Fill = color;
                     }
-                    else if (id == "358636085446754")
+                    else if (id == "358636085446754" || id == "LKOH.SVO.52")
                     {
                         id = "ПЗА-52";
                         pza52Speed.Content = Convert.ToString(speedTZA);
@@ -796,7 +796,7 @@ namespace WpfApp6
                         }
                         pza52.Fill = color;
                     }
-                    else if (id == "358636085388998")
+                    else if (id == "358636085388998" || id == "LKOH.SVO.53")
                     {
                         id = "ПЗА-53";
                         pza53Speed.Content = Convert.ToString(speedTZA);
@@ -829,7 +829,7 @@ namespace WpfApp6
                         }
                         pza53.Fill = color;
                     }
-                    else if (id == "358636085398484")
+                    else if (id == "LKOH.SVO.54")
                     {
                         id = "ПЗА-54";
                         pza54Speed.Content = Convert.ToString(speedTZA);
@@ -862,7 +862,7 @@ namespace WpfApp6
                         }
                         pza54.Fill = color;
                     }
-                    else if (id == "358636085477270")
+                    else if (id == "358636085477270" || id == "LKOH.SVO.55")
                     {
                         id = "ПЗА-55";
                         pza55Speed.Content = Convert.ToString(speedTZA);
@@ -895,7 +895,7 @@ namespace WpfApp6
                         }
                         pza55.Fill = color;
                     }
-                    else if (id == "358636085477189")
+                    else if (id == "358636085477189" || id == "LKOH.SVO.56")
                     {
                         id = "ПЗА-56";
                         pza56Speed.Content = Convert.ToString(speedTZA);
@@ -928,7 +928,7 @@ namespace WpfApp6
                         }
                         pza56.Fill = color;
                     }
-                    else if (id == "358636085505120")
+                    else if (id == "358636085505120" || id == "LKOH.SVO.57")
                     {
                         id = "ПЗА-57";
                         pza57Speed.Content = Convert.ToString(speedTZA);
@@ -961,7 +961,7 @@ namespace WpfApp6
                         }
                         pza57.Fill = color;
                     }
-                    else if (id == "358636085446796")
+                    else if (id == "358636085446796" || id == "LKOH.SVO.58")
                     {
                         id = "ПЗА-58";
                         pza58Speed.Content = Convert.ToString(speedTZA);
@@ -993,6 +993,204 @@ namespace WpfApp6
                             color = Brushes.Green;
                         }
                         pza58.Fill = color;
+                    }
+                    else if (id == "LKOH.SVO.59")
+                    {
+                        id = "ПЗА-59";
+                        pza59Speed.Content = Convert.ToString(speedTZA);
+                        //pza58Volume.Content = Convert.ToString(volume);
+                        //color = Brushes.LightCyan;
+                        numberTZA = "59";
+                        if (status == 4 || status == 5 || status == 21)
+                        {
+                            color = Brushes.Green;
+                        }
+                        else if (status == 7)
+                        {
+                            color = Brushes.Orange;
+                        }
+                        else if (status == 9 || status == 10 || status == 12 || status == 14)
+                        {
+                            color = Brushes.Red;
+                        }
+                        else if (status == 99)
+                        {
+                            color = Brushes.Black;
+                        }
+                        else if (status == 98)
+                        {
+                            color = Brushes.DimGray;
+                        }
+                        else
+                        {
+                            color = Brushes.Green;
+                        }
+                        pza59.Fill = color;
+                    }
+                    else if (id == "LKOH.SVO.60")
+                    {
+                        id = "ПЗА-60";
+                        pza60Speed.Content = Convert.ToString(speedTZA);
+                        //pza58Volume.Content = Convert.ToString(volume);
+                        //color = Brushes.LightCyan;
+                        numberTZA = "60";
+                        if (status == 4 || status == 5 || status == 21)
+                        {
+                            color = Brushes.Green;
+                        }
+                        else if (status == 7)
+                        {
+                            color = Brushes.Orange;
+                        }
+                        else if (status == 9 || status == 10 || status == 12 || status == 14)
+                        {
+                            color = Brushes.Red;
+                        }
+                        else if (status == 99)
+                        {
+                            color = Brushes.Black;
+                        }
+                        else if (status == 98)
+                        {
+                            color = Brushes.DimGray;
+                        }
+                        else
+                        {
+                            color = Brushes.Green;
+                        }
+                        pza60.Fill = color;
+                    }
+                    else if (id == "LKOH.SVO.61")
+                    {
+                        id = "ПЗА-61";
+                        pza61Speed.Content = Convert.ToString(speedTZA);
+                        //pza58Volume.Content = Convert.ToString(volume);
+                        //color = Brushes.LightCyan;
+                        numberTZA = "61";
+                        if (status == 4 || status == 5 || status == 21)
+                        {
+                            color = Brushes.Green;
+                        }
+                        else if (status == 7)
+                        {
+                            color = Brushes.Orange;
+                        }
+                        else if (status == 9 || status == 10 || status == 12 || status == 14)
+                        {
+                            color = Brushes.Red;
+                        }
+                        else if (status == 99)
+                        {
+                            color = Brushes.Black;
+                        }
+                        else if (status == 98)
+                        {
+                            color = Brushes.DimGray;
+                        }
+                        else
+                        {
+                            color = Brushes.Green;
+                        }
+                        pza61.Fill = color;
+                    }
+                    else if (id == "LKOH.SVO.62")
+                    {
+                        id = "ПЗА-62";
+                        pza62Speed.Content = Convert.ToString(speedTZA);
+                        //pza58Volume.Content = Convert.ToString(volume);
+                        //color = Brushes.LightCyan;
+                        numberTZA = "62";
+                        if (status == 4 || status == 5 || status == 21)
+                        {
+                            color = Brushes.Green;
+                        }
+                        else if (status == 7)
+                        {
+                            color = Brushes.Orange;
+                        }
+                        else if (status == 9 || status == 10 || status == 12 || status == 14)
+                        {
+                            color = Brushes.Red;
+                        }
+                        else if (status == 99)
+                        {
+                            color = Brushes.Black;
+                        }
+                        else if (status == 98)
+                        {
+                            color = Brushes.DimGray;
+                        }
+                        else
+                        {
+                            color = Brushes.Green;
+                        }
+                        pza62.Fill = color;
+                    }
+                    else if (id == "LKOH.SVO.63")
+                    {
+                        id = "ПЗА-63";
+                        pza63Speed.Content = Convert.ToString(speedTZA);
+                        //pza58Volume.Content = Convert.ToString(volume);
+                        //color = Brushes.LightCyan;
+                        numberTZA = "63";
+                        if (status == 4 || status == 5 || status == 21)
+                        {
+                            color = Brushes.Green;
+                        }
+                        else if (status == 7)
+                        {
+                            color = Brushes.Orange;
+                        }
+                        else if (status == 9 || status == 10 || status == 12 || status == 14)
+                        {
+                            color = Brushes.Red;
+                        }
+                        else if (status == 99)
+                        {
+                            color = Brushes.Black;
+                        }
+                        else if (status == 98)
+                        {
+                            color = Brushes.DimGray;
+                        }
+                        else
+                        {
+                            color = Brushes.Green;
+                        }
+                        pza63.Fill = color;
+                    }
+                    else if (id == "LKOH.SVO.64")
+                    {
+                        id = "ПЗА-64";
+                        pza64Speed.Content = Convert.ToString(speedTZA);
+                        //pza58Volume.Content = Convert.ToString(volume);
+                        //color = Brushes.LightCyan;
+                        numberTZA = "64";
+                        if (status == 4 || status == 5 || status == 21)
+                        {
+                            color = Brushes.Green;
+                        }
+                        else if (status == 7)
+                        {
+                            color = Brushes.Orange;
+                        }
+                        else if (status == 9 || status == 10 || status == 12 || status == 14)
+                        {
+                            color = Brushes.Red;
+                        }
+                        else if (status == 99)
+                        {
+                            color = Brushes.Black;
+                        }
+                        else if (status == 98)
+                        {
+                            color = Brushes.DimGray;
+                        }
+                        else
+                        {
+                            color = Brushes.Green;
+                        }
+                        pza64.Fill = color;
                     }
                     if (yc > 0 && xc > 0)
                     {
@@ -1044,7 +1242,7 @@ namespace WpfApp6
             circle.SetValue(Canvas.TopProperty, (Application.Current.MainWindow as MainWindow).picture.Height - (double)y);
             tb.SetValue(Canvas.LeftProperty, (double)x + 35.7);
             tb.SetValue(Canvas.TopProperty, (Application.Current.MainWindow as MainWindow).picture.Height - (double)y+2);
-            if (id == "ПЗА-50" || id == "ПЗА-51" || id == "ПЗА-52" || id == "ПЗА-53" || id == "ПЗА-54" || id == "ПЗА-55" || id == "ПЗА-56" || id == "ПЗА-57" || id == "ПЗА-58")
+            if (id == "ПЗА-50" || id == "ПЗА-51" || id == "ПЗА-52" || id == "ПЗА-53" || id == "ПЗА-54" || id == "ПЗА-55" || id == "ПЗА-56" || id == "ПЗА-57" || id == "ПЗА-58" || id == "ПЗА-59" || id == "ПЗА-60" || id == "ПЗА-61" || id == "ПЗА-62" || id == "ПЗА-63" || id == "ПЗА-64")
             {
                 ToolTip toolTip = new ToolTip();
                 StackPanel toolTipPanel = new StackPanel();
