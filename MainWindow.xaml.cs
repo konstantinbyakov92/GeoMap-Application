@@ -640,6 +640,7 @@ namespace WpfApp6
                             color = Brushes.Orange;
                         }
                         else if (status == 9 || status == 10 || status == 12 || status == 14)
+
                         {
                             color = Brushes.Red;
                         }
