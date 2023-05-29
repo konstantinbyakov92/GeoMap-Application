@@ -127,12 +127,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="mapSher.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="sherMap3.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="colorTZA\pza50.png" />
     <Resource Include="colorTZA\pza51.png" />
     <Resource Include="colorTZA\pza52.png" />

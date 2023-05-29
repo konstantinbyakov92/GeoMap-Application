@@ -34,6 +34,7 @@ namespace WpfApp6
         const double rbx = 37.455498;
         const double lby = 55.959890;
         const double lbx = 37.370760;
+        string stateNumber = "";
 
         public class ObjectStatus
         {
@@ -100,6 +101,7 @@ namespace WpfApp6
                     {
                         id = "ТЗА-01";
                         tza01Speed.Content = Convert.ToString(speedTZA);
+                        stateNumber = "8837ХВ50";
                         if(volume > 200000)
                         {
                             tza01Volume.Content = "";
@@ -141,6 +143,7 @@ namespace WpfApp6
                     {
                         id = "ТЗА-02";
                         tza02Speed.Content = Convert.ToString(speedTZA);
+                        stateNumber = "8836ХВ50";
                         if (volume > 200000)
                         {
                             tza02Volume.Content = "";
@@ -181,6 +184,7 @@ namespace WpfApp6
                     {
                         id = "ТЗА-03";
                         tza03Speed.Content = Convert.ToString(speedTZA);
+                        stateNumber = "9674ХВ50";
                         if (volume > 200000)
                         {
                             tza03Volume.Content = "";
@@ -221,6 +225,7 @@ namespace WpfApp6
                     {
                         id = "ТЗА-04";
                         tza04Speed.Content = Convert.ToString(speedTZA);
+                        stateNumber = "9706ХВ50";
                         if (volume > 200000)
                         {
                             tza04Volume.Content = "";
@@ -261,6 +266,7 @@ namespace WpfApp6
                     {
                         id = "ТЗА-05";
                         tza05Speed.Content = Convert.ToString(speedTZA);
+                        stateNumber = "9708ХВ50";
                         if (volume > 200000)
                         {
                             tza05Volume.Content = "";
@@ -301,6 +307,7 @@ namespace WpfApp6
                     {
                         id = "ТЗА-06";
                         tza06Speed.Content = Convert.ToString(speedTZA);
+                        stateNumber = "9718ХВ50";
                         if (volume > 200000)
                         {
                             tza06Volume.Content = "";
@@ -341,6 +348,7 @@ namespace WpfApp6
                     {
                         id = "ТЗА-07";
                         tza07Speed.Content = Convert.ToString(speedTZA);
+                        stateNumber = "9729ХВ50";
                         if (volume > 200000)
                         {
                             tza07Volume.Content = "";
@@ -381,6 +389,7 @@ namespace WpfApp6
                     {
                         id = "ТЗА-08";
                         tza08Speed.Content = Convert.ToString(speedTZA);
+                        stateNumber = "9730ХВ50";
                         if (volume > 200000)
                         {
                             tza08Volume.Content = "";
@@ -421,6 +430,7 @@ namespace WpfApp6
                     {
                         id = "ТЗА-09";
                         tza09Speed.Content = Convert.ToString(speedTZA);
+                        stateNumber = "9731ХВ50";
                         if (volume > 200000)
                         {
                             tza09Volume.Content = "";
@@ -461,6 +471,7 @@ namespace WpfApp6
                     {
                         id = "ТЗА-10";
                         tza10Speed.Content = Convert.ToString(speedTZA);
+                        stateNumber = "9499ХЕ50";
                         if (volume > 200000)
                         {
                             tza10Volume.Content = "";
@@ -501,6 +512,7 @@ namespace WpfApp6
                     {
                         id = "ТЗА-11";
                         tza11Speed.Content = Convert.ToString(speedTZA);
+                        stateNumber = "9498ХЕ50";
                         if (volume > 200000)
                         {
                             tza11Volume.Content = "";
@@ -541,6 +553,7 @@ namespace WpfApp6
                     {
                         id = "ТЗА-12";
                         tza12Speed.Content = Convert.ToString(speedTZA);
+                        stateNumber = "8974ХВ50";
                         if (volume > 200000)
                         {
                             tza12Volume.Content = "";
@@ -581,6 +594,7 @@ namespace WpfApp6
                     {
                         id = "ТЗА-14";
                         tza14Speed.Content = Convert.ToString(speedTZA);
+                        stateNumber = "9015ХВ50";
                         if (volume > 200000)
                         {
                             tza14Volume.Content = "";
@@ -621,6 +635,7 @@ namespace WpfApp6
                     {
                         id = "ТЗА-15";
                         tza15Speed.Content = Convert.ToString(speedTZA);
+                        stateNumber = "9021ХВ50";
                         if (volume > 200000)
                         {
                             tza15Volume.Content = "";
@@ -662,6 +677,7 @@ namespace WpfApp6
                     {
                         id = "ТЗА-16";
                         tza16Speed.Content = Convert.ToString(speedTZA);
+                        stateNumber = "9016ХВ50";
                         if (volume > 200000)
                         {
                             tza16Volume.Content = "";
@@ -702,6 +718,7 @@ namespace WpfApp6
                     {
                         id = "ПЗА-50";
                         pza50Speed.Content = Convert.ToString(speedTZA);
+                        stateNumber = "9611ХЕ50";
                         //pza50Volume.Content = Convert.ToString(volume);
                         //color = Brushes.Chocolate;
                         numberTZA = "50";
@@ -735,6 +752,7 @@ namespace WpfApp6
                     {
                         id = "ПЗА-51";
                         pza51Speed.Content = Convert.ToString(speedTZA);
+                        stateNumber = "9616ХЕ50";
                         //pza51Volume.Content = Convert.ToString(volume);
                         //color = Brushes.DeepSkyBlue;
                         numberTZA = "51";
@@ -768,6 +786,7 @@ namespace WpfApp6
                     {
                         id = "ПЗА-52";
                         pza52Speed.Content = Convert.ToString(speedTZA);
+                        stateNumber = "9617ХЕ50";
                         //pza52Volume.Content = Convert.ToString(volume);
                         //color = Brushes.GhostWhite;
                         numberTZA = "52";
@@ -801,6 +820,7 @@ namespace WpfApp6
                     {
                         id = "ПЗА-53";
                         pza53Speed.Content = Convert.ToString(speedTZA);
+                        stateNumber = "9618ХЕ50";
                         //pza53Volume.Content = Convert.ToString(volume);
                         //color = Brushes.Fuchsia;
                         numberTZA = "53";
@@ -834,6 +854,7 @@ namespace WpfApp6
                     {
                         id = "ПЗА-54";
                         pza54Speed.Content = Convert.ToString(speedTZA);
+                        stateNumber = "4728ХВ50";
                         //pza54Volume.Content = Convert.ToString(volume);
                         //color = Brushes.Gold;
                         numberTZA = "54";
@@ -867,6 +888,7 @@ namespace WpfApp6
                     {
                         id = "ПЗА-55";
                         pza55Speed.Content = Convert.ToString(speedTZA);
+                        stateNumber = "4729ХВ50";
                         //pza55Volume.Content = Convert.ToString(volume);
                         //color = Brushes.DarkViolet;
                         numberTZA = "55";
@@ -900,6 +922,7 @@ namespace WpfApp6
                     {
                         id = "ПЗА-56";
                         pza56Speed.Content = Convert.ToString(speedTZA);
+                        stateNumber = "5264ХО50";
                         //pza56Volume.Content = Convert.ToString(volume);
                         //color = Brushes.HotPink;
                         numberTZA = "56";
@@ -933,6 +956,7 @@ namespace WpfApp6
                     {
                         id = "ПЗА-57";
                         pza57Speed.Content = Convert.ToString(speedTZA);
+                        stateNumber = "5265ХО50";
                         //pza57Volume.Content = Convert.ToString(volume);
                         //color = Brushes.Plum;
                         numberTZA = "57";
@@ -966,6 +990,7 @@ namespace WpfApp6
                     {
                         id = "ПЗА-58";
                         pza58Speed.Content = Convert.ToString(speedTZA);
+                        stateNumber = "5262ХО50";
                         //pza58Volume.Content = Convert.ToString(volume);
                         //color = Brushes.LightCyan;
                         numberTZA = "58";
@@ -999,6 +1024,7 @@ namespace WpfApp6
                     {
                         id = "ПЗА-59";
                         pza59Speed.Content = Convert.ToString(speedTZA);
+                        stateNumber = "8927ХМ50";
                         //pza58Volume.Content = Convert.ToString(volume);
                         //color = Brushes.LightCyan;
                         numberTZA = "59";
@@ -1032,6 +1058,7 @@ namespace WpfApp6
                     {
                         id = "ПЗА-60";
                         pza60Speed.Content = Convert.ToString(speedTZA);
+                        stateNumber = "8922ХМ50";
                         //pza58Volume.Content = Convert.ToString(volume);
                         //color = Brushes.LightCyan;
                         numberTZA = "60";
@@ -1065,6 +1092,7 @@ namespace WpfApp6
                     {
                         id = "ПЗА-61";
                         pza61Speed.Content = Convert.ToString(speedTZA);
+                        stateNumber = "8926ХМ50";
                         //pza58Volume.Content = Convert.ToString(volume);
                         //color = Brushes.LightCyan;
                         numberTZA = "61";
@@ -1098,6 +1126,7 @@ namespace WpfApp6
                     {
                         id = "ПЗА-62";
                         pza62Speed.Content = Convert.ToString(speedTZA);
+                        stateNumber = "8925ХМ50";
                         //pza58Volume.Content = Convert.ToString(volume);
                         //color = Brushes.LightCyan;
                         numberTZA = "62";
@@ -1131,6 +1160,7 @@ namespace WpfApp6
                     {
                         id = "ПЗА-63";
                         pza63Speed.Content = Convert.ToString(speedTZA);
+                        stateNumber = "8924ХМ50";
                         //pza58Volume.Content = Convert.ToString(volume);
                         //color = Brushes.LightCyan;
                         numberTZA = "63";
@@ -1164,6 +1194,7 @@ namespace WpfApp6
                     {
                         id = "ПЗА-64";
                         pza64Speed.Content = Convert.ToString(speedTZA);
+                        stateNumber = "8923ХМ50";
                         //pza58Volume.Content = Convert.ToString(volume);
                         //color = Brushes.LightCyan;
                         numberTZA = "64";
@@ -1209,7 +1240,7 @@ namespace WpfApp6
                         double y = (int)my;
                         if (x >= 0 && x <= picture.Width && y >= 0 && y < picture.Height) //если попадаем на изображение
                         {
-                            circle(x, y, 30, 30, (Application.Current.MainWindow as MainWindow).can, id, speedTZA, volume, color, numberTZA);
+                            circle(x, y, 30, 30, (Application.Current.MainWindow as MainWindow).can, id, speedTZA, volume, color, numberTZA, stateNumber);
                         }
                     }
                 }
@@ -1220,7 +1251,7 @@ namespace WpfApp6
             }
         }
         
-        public static void circle(double x, double y, int width, int height, Canvas cv, string id, decimal speedTZA, double volume, SolidColorBrush color, string numberTZA)
+        public static void circle(double x, double y, int width, int height, Canvas cv, string id, decimal speedTZA, double volume, SolidColorBrush color, string numberTZA, string num)
         {
             Ellipse circle = new Ellipse()
             {
@@ -1250,6 +1281,7 @@ namespace WpfApp6
                 toolTip.Background = (SolidColorBrush)(new BrushConverter().ConvertFrom("#60AA4030"));
                 toolTipPanel.Children.Add(new TextBlock { Text = id, FontSize = 34, Foreground = (SolidColorBrush)(new BrushConverter().ConvertFrom("#FFFFFF"))});
                 toolTipPanel.Children.Add(new TextBlock { Text = "Скорость " + Convert.ToString(speedTZA) + " км/ч.", FontSize = 34, Foreground = (SolidColorBrush)(new BrushConverter().ConvertFrom("#FFFFFF")) });
+                toolTipPanel.Children.Add(new TextBlock { Text = num, FontSize = 34, Foreground = (SolidColorBrush)(new BrushConverter().ConvertFrom("#FFFFFF")) });
                 toolTip.Content = toolTipPanel;
                 tb.ToolTip = toolTip;
             }
@@ -1261,6 +1293,7 @@ namespace WpfApp6
                 toolTipPanel.Children.Add(new TextBlock { Text = id, FontSize = 34, Foreground = (SolidColorBrush)(new BrushConverter().ConvertFrom("#FFFFFF")) });
                 toolTipPanel.Children.Add(new TextBlock { Text = "Скорость " + Convert.ToString(speedTZA) + " км/ч.", FontSize = 34, Foreground = (SolidColorBrush)(new BrushConverter().ConvertFrom("#FFFFFF")) });
                 toolTipPanel.Children.Add(new TextBlock { Text = "Объем " + Convert.ToString(volume) + " л.", FontSize = 34, Foreground = (SolidColorBrush)(new BrushConverter().ConvertFrom("#FFFFFF")) });
+                toolTipPanel.Children.Add(new TextBlock { Text = num, FontSize = 34, Foreground = (SolidColorBrush)(new BrushConverter().ConvertFrom("#FFFFFF")) });
                 toolTip.Content = toolTipPanel;
                 tb.ToolTip = toolTip;
             }
